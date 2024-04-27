@@ -1,11 +1,11 @@
 @media (min-width: 768px) {
 
-    /* General Styles */
+
     body {
         font-size: 16px;
     }
 
-    /* Header Styles */
+
     header {
         padding: 30px;
     }
@@ -20,7 +20,7 @@
         font-size: 32px;
     }
 
-    /* Navigation Styles */
+
     nav ul {
         flex-direction: row;
     }
@@ -29,7 +29,7 @@
         margin-right: 20px;
     }
 
-    /* Main Content Styles */
+
     main {
         padding: 30px;
     }
@@ -51,7 +51,7 @@
         font-size: 28px;
     }
 
-    /* Footer Styles */
+
     footer {
         padding: 15px;
     }
