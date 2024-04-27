@@ -1,0 +1,62 @@
+@media (min-width: 768px) {
+
+    /* General Styles */
+    body {
+        font-size: 16px;
+    }
+
+    /* Header Styles */
+    header {
+        padding: 30px;
+    }
+
+    header img {
+        width: 200px;
+        height: 200px;
+        margin-right: 30px;
+    }
+
+    header span {
+        font-size: 32px;
+    }
+
+    /* Navigation Styles */
+    nav ul {
+        flex-direction: row;
+    }
+
+    nav li {
+        margin-right: 20px;
+    }
+
+    /* Main Content Styles */
+    main {
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 48px;
+        margin-bottom: 30px;
+    }
+
+    .parent {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+
+    .card h2 {
+        font-size: 28px;
+    }
+
+    /* Footer Styles */
+    footer {
+        padding: 15px;
+    }
+
+    #lastmodified {
+        font-size: 16px;
+    }
+}
