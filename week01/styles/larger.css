@@ -1,0 +1,19 @@
+@media screen and (min-width: 768px) {
+    main {
+        max-width: 1200px;
+        margin: 50px auto;
+        padding: 50px;
+    }
+
+    section {
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .image img {
+        width: 100%;
+    }
+}
