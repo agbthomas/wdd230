@@ -2,15 +2,16 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
-    color: #333;
+    background-color: #ffffff;
+    color: #000000;
+    ;
     font-size: 16px;
 }
 
 
 header {
-    background-color: #4CAF50;
-    color: #fff;
+    background-color: #333333;
+    color: #ffffff;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -26,12 +27,13 @@ header img {
 header span {
     font-size: 24px;
     font-weight: bold;
+    color: #ffffff;
 }
 
 
 nav {
-    background-color: #333;
-    color: #fff;
+    background-color: #005693;
+    color: #ffffff;
     padding: 10px;
 }
 
@@ -48,7 +50,7 @@ nav li {
 }
 
 nav a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -57,7 +59,7 @@ nav .active a {
 }
 
 nav a:hover {
-    color: #4CAF50;
+    color: #005a91;
 }
 
 
@@ -68,7 +70,7 @@ main {
 }
 
 h1 {
-    color: #4CAF50;
+    color: #000000;
     font-size: 36px;
     margin-bottom: 20px;
 }
@@ -80,13 +82,13 @@ h1 {
 }
 
 .card {
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f4f4f4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     padding: 20px;
 }
 
 .card h2 {
-    color: #4CAF50;
+    color: #000000;
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -102,18 +104,18 @@ h1 {
 }
 
 .card a {
-    color: #333;
+    color: #000000;
     text-decoration: none;
 }
 
 .card a:hover {
-    color: #4CAF50;
+    color: #DE9151;
 }
 
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #f4f4f4;
+    color: #333333;
     padding: 10px;
     text-align: center;
 }
@@ -124,4 +126,9 @@ footer p {
 
 #lastmodified {
     font-size: 14px;
+}
+
+h1,
+.card h2 {
+    color: #000000;
 }

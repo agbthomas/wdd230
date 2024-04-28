@@ -10,3 +10,4 @@ const lastModifiedString = lastModifiedDate.toLocaleString();
 
 document.getElementById("copyright-year").textContent = currentYear;
 document.getElementById("last-modified").textContent = lastModifiedString;
+
